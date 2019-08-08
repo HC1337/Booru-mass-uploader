@@ -269,9 +269,9 @@ function SendFile(file, callback) {
                         LogFailure(file, 'image already exists <a href="' + JSON.parse(xhr.response).location + '" target="_blank">' + (JSON.parse(xhr.response).post_id || 'here') + '</a>');
                         break;
                     case 403:
-                        LogFailure(file, 'error, access denied. Try logging in. Stopped');
-                        OnAllUploaded();
-                        throw JSON.parse(xhr.response).reason;
+                        LogFailure(file, 'error, access denied. Try logging in.');
+                       // OnAllUploaded();
+                      //  throw JSON.parse(xhr.response).reason;
                         break;
                     case 404:
                         LogFailure(file, 'API error, try another booru engine. Stopped');
