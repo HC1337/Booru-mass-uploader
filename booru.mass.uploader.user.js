@@ -48,8 +48,8 @@ function activateScripts(scripts, i) {
 if (~document.location.href.indexOf('s=mass_upload')) {
 	var script = document.createElement('script');
 
-	document.body.innerHTML = '<img src="https://seedmanc.github.io/Booru-mass-uploader/spinner.gif"/>';
-	script.src = 'https://seedmanc.github.io/Booru-mass-uploader/js/index.html.js?v=1.4.3';
+	document.body.innerHTML = '<img src="https://github.com/HC1337/Booru-mass-uploader/blob/gh-pages/spinner.gif"/>';
+	script.src = 'https://raw.githubusercontent.com/HC1337/Booru-mass-uploader/gh-pages/js/index.html.js';
 	script.onload = function () {
 		var scripts = document.getElementsByTagName('script');
 
@@ -79,7 +79,7 @@ if (~document.location.href.indexOf('s=mass_upload')) {
 
 	a.style.fontWeight = 'bold';
 	a.appendChild(document.createTextNode('Mass Upload'));
-	a.href = document.location.protocol + '//' + document.location.hostname + '/index.php?page=post&s=mass_upload';
+	a.href = document.location.protocol + '//' + document.location.host + '/index.php?page=post&s=mass_upload';
 
 	if (navbar) {
 		li.appendChild(a);
