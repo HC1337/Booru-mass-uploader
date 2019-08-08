@@ -234,9 +234,9 @@ function SendFile(file, callback) {
                         }
                     }
                     else if (~this.responseText.indexOf('permission')) {
-                        LogFailure(file, 'error, access denied. Try logging in. Stopped');
-                        OnAllUploaded();
-                        throw 403;
+                        LogFailure(file, 'error, access denied. Try logging in.');
+                    //    OnAllUploaded();
+                    //    throw 403;
                     } else if (~this.responseText.indexOf('n error occured')) {
                         LogFailure(file, 'image too big? too small? corrupted?');
                     } else {
