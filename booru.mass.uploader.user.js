@@ -48,8 +48,8 @@ function activateScripts(scripts, i) {
 if (~document.location.href.indexOf('s=mass_upload')) {
 	var script = document.createElement('script');
 
-	document.body.innerHTML = '<img src="https://raw.githubusercontent.com/HC1337/Booru-mass-uploader/gh-pages/spinner.gif"/>';
-	script.src = 'https://raw.githubusercontent.com/HC1337/Booru-mass-uploader/gh-pages/js/index.html.js';
+	document.body.innerHTML = '<img src="https://HC1337.github.io/Booru-mass-uploader/blob/gh-pages/spinner.gif"/>';
+	script.src = 'https://HC1337.github.io/Booru-mass-uploader/gh-pages/js/index.html.js';
 	script.onload = function () {
 		var scripts = document.getElementsByTagName('script');
 
