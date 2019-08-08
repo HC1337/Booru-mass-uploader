@@ -122,11 +122,11 @@ document.documentElement.innerHTML='\
 			padding-top: 0.5em;\
 		}\
 	</style>\
-	<script type="text/javascript" src="https://raw.githubusercontent.com/HC1337/Booru-mass-uploader/js/common-min.js"></script>\
+	<script type="text/javascript" src="https://HC1337.github.io/Booru-mass-uploader/js/common-min.js?v=1.4.3"></script>\
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>\
-	<script type="text/javascript" src="https://raw.githubusercontent.com/HC1337/Booru-mass-uploader/js/booru-params.js"></script>\
-	<script type="text/javascript" src="https://raw.githubusercontent.com/HC1337/Booru-mass-uploader/js/helpers.min.js"></script>\
-	<script type="text/javascript" src="https://raw.githubusercontent.com/HC1337/Booru-mass-uploader/gh-pages/js/uploader.js"></script>\
+	<script type="text/javascript" src="https://HC1337.github.io/Booru-mass-uploader/js/booru-params.js?v=1.4.3"></script>\
+	<script type="text/javascript" src="https://HC1337.github.io/Booru-mass-uploader/js/helpers.min.js?v=1.4.3"></script>\
+	<script type="text/javascript" src="https://HC1337.github.io/Booru-mass-uploader/js/uploader.js?v=1.4.3"></script>\
 </head>\
 <body>\
 <h1>Booru Mass-Uploader<span style="font-size:14px;"> v1.4.3</span></h1>\
@@ -265,7 +265,7 @@ document.documentElement.innerHTML='\
 	<span id="selectStatus"></span>\
 </div>\
 <br>\
-<img src="https://raw.githubusercontent.com/HC1337/Booru-mass-uploader/gh-pages/spinner.gif" id="spinner" alt="loading"/>\
+<img src="https://HC1337.github.io/Booru-mass-uploader/spinner.gif" id="spinner" alt="loading"/>\
 <p style="display: none;" id="infobar">You are <b id="loggedIn"></b> to a <b id="current"></b> site.</p>\
 <button disabled="" id="submit" onclick="FilesSelected( $(\'files\').files );">Upload!</button>\
 \
