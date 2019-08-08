@@ -119,7 +119,7 @@ function UploadOptions() {
 		ticket: GetCookie('pass_hash')
 	};
 	auth.use = (auth.userID || GetCookie('login')) && auth.ticket;
-	var uploadURL = document.location.protocol + '//' + document.location.hostname + boorus[current].uploadPath;
+	var uploadURL = document.location.protocol + '//' + document.location.host + boorus[current].uploadPath;
 
 	$('spinner').hide();
 	$('infobar').show();
