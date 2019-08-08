@@ -131,7 +131,7 @@ function UploadOptions() {
     $('current').textContent = current;
 
     return {
-        delay:     1000,
+        delay:     50,
         uploadURL: uploadURL,
         title:     $('title').checked,
         rating:    rating,
