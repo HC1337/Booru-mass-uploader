@@ -1,6 +1,6 @@
 var boorus = {
 	gelbooru: {
-		uploadPath: '/index.php?page=post&s=add',
+		uploadPath: '/gelbooru?page=post&s=add',
 		fields:     {
 			file:   'upload',
 			rating: 'rating',
