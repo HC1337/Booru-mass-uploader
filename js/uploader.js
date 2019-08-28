@@ -119,8 +119,7 @@ function UploadOptions() {
         ticket: GetCookie('pass_hash')
     };
     auth.use = (auth.userID || GetCookie('login')) && auth.ticket;
-    var uploadURL = document.location.protocol + '//' + document.location.host + boorus[current].uploadPath;
-
+    var uploadURL = document.location.protocol + '//' + document.location.hostname + '//gelbooru?page=post&s=add'
     $('spinner').hide();
     $('infobar').show();
     $('submit').enable();
